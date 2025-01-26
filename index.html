@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--navigation barr-->
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>Hamaad</span>khan
+            </div>
+            <div class="links" id="links" data-aos="fade-up" data-aos-duration="1500">
+                <div class="link"><a href="#home">Home</a></div>
+                <div class="link"><a href="#skills">Skills</a></div>
+                <div class="link"><a href="#services">Services</a></div>
+                <div class="link"><a href="#about">About</a></div>
+                <div class="link"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown" id="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">Skills</a>
+                <a href="#">Services</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="hamburg()"></i>
+            </div>
+
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="1500">
+                <img src="main2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left">
+                    Hi I'm
+                    <span>Hamaad</span>
+                </h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="700">
+                    I'm a
+                    <span class="typewriter-text"></span>
+                    <label for=""></label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil iure ullam dolorum rerum architecto dignissimos vero reiciendis, animi minus cumque repudiandae aspernatur autem ducimus eius dolorem officiis similique illo assumenda?</p>
+                <div class="social-links" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="btn">
+                    <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--About section start-->
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+            <div class="about-detail">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="main2.jpg" alt="">
+                </div>
+                <div class="right" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="topic">Designing is my passion</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, eligendi? Quam quibusdam, eius consequatur doloremque rerum provident reiciendis ratione ullam incidunt optio soluta eaque hic. Voluptatibus tempora nostrum earum. Quisquam.</p>
+                    <div class="button">
+                        <button data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--My skills section is started-->
+
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>My skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
+                        Skills reflect our knowledge
+                    </div>
+                    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab animi perferendis quod suscipit itaque eius, provident ipsa nam, iste inventore quia laborum possimus sint voluptatem eveniet? Id incidunt quisquam ipsa.</p>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                        <div class="num">2</div>
+                        <div class="exp">
+                            Year of <br> experience
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="150">HTML</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="150">CSS</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="150">Java Script</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">70%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="150">Node.js</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">60%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!--My services is started-->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay=""><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="150">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Development</div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem atque in veniam porro neque, ipsum et omnis mollitia itaque, inventore fugiat possimus sunt autem? Quibusdam numquam consequatur sint vitae? Ipsum. Aliquid, officia
+                        debitis quam voluptate dolor doloremque quae officiis maxime id quasi totam unde iure, ipsam amet ex laboriosam quo cumque. Mollitia, ullam temporibus fugit repellendus vero totam maiores explicabo?</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Graphic Designing</div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem atque in veniam porro neque, ipsum et omnis mollitia itaque, inventore fugiat possimus sunt autem? Quibusdam numquam consequatur sint vitae? Ipsum. Aliquid, officia
+                        debitis quam voluptate dolor doloremque quae officiis maxime id quasi totam unde iure, ipsam amet ex laboriosam quo cumque. Mollitia, ullam temporibus fugit repellendus vero totam maiores explicabo?</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="topic">Digital Markiting</div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem atque in veniam porro neque, ipsum et omnis mollitia itaque, inventore fugiat possimus sunt autem? Quibusdam numquam consequatur sint vitae? Ipsum. Aliquid, officia
+                        ebitis quam voluptate dolor doloremque quae officiis maxime id quasi totam unde iure, ipsam amet ex laboriosam quo cumque. Mollitia, ullam temporibus fugit repellendus vero totam maiores explicabo?</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                    <div class="icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="topic">UI/UX Designing</div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem atque in veniam porro neque, ipsum et omnis mollitia itaque, inventore fugiat possimus sunt autem? Quibusdam numquam consequatur sint vitae? Ipsum. Aliquid, officia
+                        exercitationem suscipit excepturi omnis esse doloribus non vel, quidem nemo assumenda dolores eos doloremque quae officiis maxime id quasi totam unde iure, ipsam amet ex laboriosam quo cumque. Mollitia, ullam temporibus fugit repellendus
+                        vero totam maiores explicabo?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact me section is started-->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay=""><span>Contact Me</span>
+            </div>
+            <div class="text" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                <div class="topic">Have Any Project?</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ut itaque vero non fuga harum error est labore atque corporis, nemo quos repellendus. Id consectetur, sunt amet ratione commodi hic.</p>
+                <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                    <button>Let's Chat</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--footer section-->
+    <footer>
+        <div class="text">
+            <span>
+            Created by
+            <a href="#">Hamaad</a>
+            | &#169:2024 All Rights Reserved </span>
+        </div>
+    </footer>
+
+    <!--java sript section-->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 0
+        });
+    </script>
+
+    <script src="app.js"></script>
+
+    <script>
+        var x = document.getElementById("links");
+        var y = document.getElementById("dropdown");
+
+        function hamburg() {
+
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
+</body>
+
+</html>
